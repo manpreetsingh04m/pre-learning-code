@@ -1,0 +1,152 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.navigation{
+  background-color: #555;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  
+}
+.navigation a {
+  justify-content: space-evenly;
+  align-items: center;
+  width: 14vw;
+  height: 10vh;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  position: relative;
+}
+.navigation a:hover {
+  background-color: rgb(160, 178, 135);
+}
+.navigation a:active{
+  color: rgb(34, 183, 133);
+  background-color: bisque;
+}
+.htm{
+  border: 1px ;
+  position: absolute;
+  background-color: aquamarine;
+  height: 600px;
+  width: 1500px;
+  margin-top: 50px;
+}
+.htm h1{
+  position: relative;
+  font-size: 60px;
+  height: 200px;
+  justify-content: space-evenly;
+  text-align: center;
+  font-weight:900;
+  margin-top: 10px;
+  
+}
+.htm p{
+  position: relative;
+  height: 150px;
+  width: 700px;
+  font-size: 25px;
+  margin-left: 20px;
+}
+.htm img{
+  position: relative;
+    display: flex;
+    width: 306px;
+    float: right;
+    bottom: 159px;
+    right: 189px;
+}
+.abou{
+  border: 1px solid black ;
+  position: relative;
+  background-color: lightsalmon;
+  height: 600px;
+  width: 1500px;
+  margin-top: 700px;
+}
+.abou h1{
+  position: relative;
+  font-size: 60px;
+  height: 170px;
+  justify-content: space-evenly;
+  text-align: center;
+  font-weight:900;
+  margin-top: 10px;
+}
+.abou p{
+  position: relative;
+  height: 150px;
+  width: 700px;
+  font-size: 25px;
+  margin-left: 20px;
+}
+.abou img{
+  position: relative;
+  display: flex;
+  width: 376px;
+  float: right;
+  bottom: 145px;
+  right: 147px;
+}
+.jav{
+  border: 1px solid black ;
+  position: relative;
+  background-color: navajowhite;
+  height: 600px;
+  width: 1500px;
+  margin-top: 50px;
+}
+.jav h1{
+  position: relative;
+  font-size: 60px;
+  height: 150px;
+  justify-content: space-evenly;
+  text-align: center;
+  font-weight:800;
+  margin-top: 10px;
+  margin-left: 400px;
+}
+.jav p{
+  position: relative;
+  height: 80px;
+  width: 700px;
+  font-size: 24px;
+  margin-left: 20px;
+}
+.jav img{
+  position: relative;
+    display: flex;
+    width: 344px;
+    float: right;
+    bottom: 72px;
+    right: 146px;
+}
+.foot{
+  margin-left: 25px;
+  margin-top: 20px;
+  background-color: greenyellow;
+  width: 450px;
+  height: 230px;
+  position: absolute;
+  border-radius: 20px;
+}
+.foot h1{
+  text-align: center;
+  margin-top: 12px;
+  position: relative;
+}
+.foot p{
+  font-size: 25px;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 18px;
+}
+.foot p:hover{
+  color: cadetblue;
+}
