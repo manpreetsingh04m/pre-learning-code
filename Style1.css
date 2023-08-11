@@ -28,7 +28,7 @@
     color: white;
     font-size: 18px;
     position: relative;
-    transition: transform 0.2s;
+    transition: transform 0.8s;
   }
   .navigation a:hover {
     background-color: rgb(160, 178, 135);
@@ -75,7 +75,7 @@
     float: right;
     bottom: 144px;
     right: 125px;
-    transition: transform 0.8s;
+    transition: transform 0.9s;
   }
   .htm img:hover{
     transform: scale3d(1.2,1.2,1.2)
@@ -114,7 +114,7 @@
     float: right;
     bottom: 113px;
     right: 70px;
-    transition: transform 0.8s;
+    transition: transform 0.9s;
   }
   .about-css img:hover{
     transform: scale3d(1.2,1.2,1.2)
@@ -155,7 +155,7 @@
     float: right;
     bottom: 70px;
     right: 57px;
-    transition: transform 0.8s;
+    transition: transform 0.9s;
   }
   .jav img:hover{
     transform: scale3d(1.2,1.2,1.2)
